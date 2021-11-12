@@ -1,0 +1,16 @@
+.info-desk{
+  width: 19%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30px
+}
+
+@media only screen and (max-width: 1000px) {
+  .info-desk{
+    width: 100%;
+    flex-direction: row;
+    margin: 0;
+    margin-bottom: 40px;
+  }
+}

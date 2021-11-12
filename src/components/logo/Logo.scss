@@ -1,0 +1,47 @@
+.logo{
+  display: block;
+  background: radial-gradient(128.88% 128.88% at 103.9% -10.39%, #E84D70 0%, #A337F6 53.09%, #28A7ED 100%);
+  border-radius: 10px;
+  padding: 62px 77px 24px 24px;
+  margin-bottom: 24px;
+
+}
+
+.logo__title{
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: -0.25px;
+  color: #FFFFFF;
+  text-overflow: ellipsis;
+}
+
+.logo__txt{
+  margin: 0;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #FFFFFF;
+  opacity: 0.75;
+}
+
+@media only screen and (max-width: 1000px) {
+  .logo{
+    width: calc(100% / 3 - 10px);
+    min-height: 178px;
+    padding: 103px 46px 24px 24px;
+    flex-grow: 1;
+    margin: 0;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 751px) {
+  .logo{
+    padding: 24px 46px 24px 24px;
+  }
+}

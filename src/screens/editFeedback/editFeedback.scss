@@ -1,0 +1,111 @@
+.edit-feedback__link{
+  margin-bottom: 40px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #647196;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+
+  &::before{
+    display: block;
+    content: "";
+    width: 10px;
+    height: 8px;
+    background-image: url("../../assets/img/arrow-left.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+.edit-feedback{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.edit-feedback__form{
+  position: relative;
+  background: #fff;
+  padding: 52px 42px 40px;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  &::before{
+    display: block;
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: 30px;
+    width: 56px;
+    height: 56px;
+    background: radial-gradient(128.88% 128.88% at 103.9% -10.39%, #E84D70 0%, #A337F6 53.09%, #28A7ED 100%);
+    border-radius: 50%;
+    background-image: url("../../assets/img/edit-feedback.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+.edit-feedback__headline{
+  margin: 0;
+  margin-bottom: 40px;
+  font-family: "Jost", sans-serif ;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 35px;
+  letter-spacing: -0.333333px;
+  color: #3A4374;
+}
+
+.edit-feedback__input-wrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+.edit-feedback__title{
+  margin: 0;
+  margin-bottom: 5px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.194444px;
+  color: #3A4374;
+}
+
+.edit-feedback__desc{
+  margin: 0;
+  margin-bottom: 16px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.edit-feedback__input{
+  width: 100%;
+  padding: 13px 24px;
+  background: #F7F8FD;
+  border: none;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+  color: #3A4374;
+}
+
+.edit-feedback__btn-wrapper{
+  width: 100%;
+  display: flex;
+}
+
+.edit-feedback__btn{
+  margin-right: 16px;
+  margin-left: auto;
+}

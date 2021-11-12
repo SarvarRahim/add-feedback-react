@@ -1,0 +1,115 @@
+.feedback-detail{
+  flex-grow: 1;
+}
+
+.feedback-detail__container{
+  max-width: 770px;
+  // padding-right: 20px;
+  // padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.feedback-detail__header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.feedback-detail__link{
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #647196;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+
+  &::before{
+    display: block;
+    content: "";
+    width: 10px;
+    height: 8px;
+    background-image: url("../../assets/img/arrow-left.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+.feedback-detail__comments{
+  background: #fff;
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+
+.feedback-detail__comments-wrapper{
+  padding: 24px 34px;
+}
+
+.feedback-detail__title{
+  margin: 0;
+  margin-bottom: 28px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  color: #3A4374;
+}
+
+.feedback-detail__comments-quantity{
+  margin-right: 5px;
+}
+
+.feedback-detail__comments-list{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.feedback-detail__comments-item:not(:last-child){
+  border-bottom: 1px solid  rgba(140, 146, 179, 0.25);
+}
+
+.feedback-detail__add-comment{
+  padding: 24px 32px 32px 32px;
+  background: #fff;
+    border-radius: 10px;
+  }
+  
+.feedback-detail__add-comment__title{
+  margin: 0;
+  margin-bottom: 24px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  color: #3A4374;
+}
+
+.feedback-detail__form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.feedback-detail__input{
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 42px;
+  padding-left: 24px;
+  border: none;
+  background: #F7F8FD;
+  border-radius: 5px;
+  margin-bottom: 16px;
+
+  &::placeholder{
+    font-family: "Jost", sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    color: #8C92B3;
+  }
+}
+

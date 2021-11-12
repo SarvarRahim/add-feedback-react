@@ -1,0 +1,39 @@
+.filter{
+  align-items: center;
+  padding: 24px 50px 24px 24px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-bottom: 24px;
+}
+
+.filter__list{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.filter__item{
+  margin-right: 8px;
+  margin-bottom: 14px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .filter{
+    width: calc(100% / 3 - 10px);
+    min-height: 178px;
+    flex-grow: 1;
+    margin: 0;
+    margin-right: 10px;
+    padding: 24px 18px 36px 24px;
+  }
+}
+
+@media only screen and (max-width: 751px) {
+  .filter{
+    padding: 15px 5px 5px 5px;
+    margin-bottom: -10px;
+  }
+}

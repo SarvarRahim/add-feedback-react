@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./assets/app.scss";
+import "./assets/container.scss";
+import "./assets/general.scss";
+import AddComments from "./components/add-comments/add-comments";
+import Comments from "./components/comments/comments";
+import CreateFeedback from "./screens/createFeedback/createFeedback";
+import EditFeedback from "./screens/editFeedback/editFeedback";
+// import InfoDesk from "./components/info-desk/info-desk";
+// import MainDesk from "./components/main-desk/main-desk";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <div className="container">
+        <div className="app__content">
+          {/* <InfoDesk></InfoDesk>
+          <MainDesk></MainDesk> */}
+        </div>
+        <div className="container-comment">
+          <Comments />
+          <AddComments />
+          {/* <EditFeedback />
+          <CreateFeedback /> */}
+        </div>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,14 @@
+.main-desk{
+  flex-grow: 1;
+}
+
+.main-desk__list{
+  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-desk__item::marker {
+  list-style-type: none;
+}

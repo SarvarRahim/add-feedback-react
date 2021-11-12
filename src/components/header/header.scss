@@ -1,0 +1,47 @@
+.header{
+  background: #373F68;
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-bottom: 20px;
+}
+
+.header__content{
+  display: flex;
+  align-items: center;
+}
+
+
+.header__suggestions{
+  margin-right: 38px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+
+  &::before{
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin-right: 14px;
+    background-image: url("../../assets/img/lamp.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+.header__suggestions-counter{
+
+}
+
+.header__sort{
+
+}
+
+.header__btn{
+  margin-left: auto;
+}

@@ -1,0 +1,103 @@
+.btn--filter{
+  padding: 6px 15px;
+  background-color: #F2F4FF;
+  border-radius: 10px;
+  border: none;
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+  color: #4661E6;
+  white-space: nowrap;
+
+  &:hover{
+    background-color: #CFD7FF;
+  }
+  &:active{
+    background-color: #4661E6;
+    color: #fff;
+  }
+  &--active{
+    background-color: #4661E6;
+    color: #fff;
+  }
+}
+
+.btn{
+  padding: 12px 25px;
+  border-radius: 10px;
+  border: none;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #F2F4FE;
+}
+
+.btn--add{
+  padding: 12px 25px;
+  border-radius: 10px;
+  border: none;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #F2F4FE;
+  background-color: #AD1FEA;
+  white-space: nowrap;
+
+  &:hover{
+    background-color: #C75AF6;
+  }
+}
+
+.btn--edit{
+  padding: 12px 25px;
+  border-radius: 10px;
+  border: none;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #F2F4FE;
+  background-color: #4661E6;
+  white-space: nowrap;
+
+  &:hover{
+    background-color: #7C91F9;
+  }
+}
+
+.btn--cancel{
+  padding: 12px 25px;
+  border-radius: 10px;
+  border: none;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #F2F4FE;
+  background-color: #3A4374;
+  white-space: nowrap;
+
+  &:hover{
+    background-color: #656EA3;
+  }
+}
+
+.btn--delete{
+  padding: 12px 25px;
+  border-radius: 10px;
+  border: none;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #F2F4FE;
+  background-color: #D73737;
+  white-space: nowrap;
+
+  &:hover{
+    background-color: #E98888;
+  }
+}
